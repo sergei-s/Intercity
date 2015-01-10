@@ -1,0 +1,37 @@
+body {
+    padding-bottom: 50px;
+}
+
+@media (min-width: 768px) {
+    .navbar .navbar-nav {
+        display: inline-block;
+        float: none;
+        vertical-align: top;
+    }
+
+    .navbar {
+        text-align: center;
+    }
+}
+body{
+    background: url('http://cleancanvas.herokuapp.com/img/backgrounds/color-splash.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.form-signin {
+    max-width: 280px;
+    margin: 100px auto 50px;
+}
+
+.form-signin input[type="email"] {
+    margin-bottom: 10px;
+}
+
+.form-signin input[type="password"] {
+    margin-bottom: 20px;
+}
+
+.jumbotron
+{
+    opacity:0.6
+}
